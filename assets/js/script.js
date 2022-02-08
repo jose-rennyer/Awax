@@ -9,10 +9,6 @@
     }
 }*/
 
-let menu = document.querySelector("nav")
-
-menu.addEventListener("click", abrirmenu)
-
 function abrirmenu(){
-    menu.classList.toggle("aberto")
+    document.querySelector("nav").classList.toggle("aberto")
 }
